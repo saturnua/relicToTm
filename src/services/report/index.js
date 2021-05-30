@@ -10,6 +10,7 @@ const url = HOST;
 
 const send = async (ctx) => {
     const payload = ctx;
+    console.log('------IN Service ------ ')
     console.log(payload);
     return payload;
 
