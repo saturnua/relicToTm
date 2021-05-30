@@ -8,9 +8,11 @@ const url = HOST;
 //     headers: { Authorization: `${AUTHORIZATION}`, 'Content-Type': 'application/json' },
 // };
 
-const send = async (data) => {
-    const payload = data;
+const send = async (ctx) => {
+    const payload = ctx;
     console.log(payload);
+    return payload;
+
 };
 const reportServices = { send }
 
