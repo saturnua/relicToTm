@@ -1,0 +1,27 @@
+{
+  "name": "relictotm",
+  "version": "1.0.0",
+  "description": "API that sends reports from newRelic to Telegram channel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnua/relicToTm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saturnua/relicToTm/issues"
+  },
+  "homepage": "https://github.com/saturnua/relicToTm#readme",
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
