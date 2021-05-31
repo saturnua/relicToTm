@@ -1,3 +1,3 @@
 const reportService = require('./report');
 
-module.exports = reportService ;
+module.exports = reportService;
