@@ -1,12 +1,21 @@
 const bot = require('../../bot')
 
-const { CHAT_ID } = process.env;
+const {CHAT_ID} = process.env;
 
 const send = async (ctx) => {
-    const payload = ctx;
-    await bot.telegram.sendMessage(CHAT_ID, payload)
-    return payload;
+    const app_name = ctx.metadata['entity.name'];
+    const severity = ctx.severity;
+    const timeOfError = ctx.timestamp_utc_string;
+    const message = `
+    🔥🔥🔥🙏🙏🙏🙏🙏🙏🙏🙏🙏🔥🔥🔥\n
+    App "${app_name}" has ERROR with severity - "${severity}"\n
+    happens at - ${timeOfError}
+   🔥⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑⛑⛑🔥`;
+
+    await bot.telegram.sendMessage(CHAT_ID, message)
+    return message;
+    // '🔥🔥🔥🔥🔥'
 };
-const reportServices = { send }
+const reportServices = {send}
 
 module.exports = reportServices;
