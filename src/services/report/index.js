@@ -1,6 +1,6 @@
 const bot = require('../../bot');
 
-const { CHAT_ID, CHAT_ANDREY } = process.env;
+const { CHAT_ID } = process.env;
 
 const send = async (ctx) => {
   const appName = ctx.metadata['entity.name'] ? ctx.metadata['entity.name'] : 'App without name';
@@ -14,7 +14,6 @@ const send = async (ctx) => {
    🔥⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑⛑⛑🔥`;
 
   await bot.telegram.sendMessage(CHAT_ID, message);
-  await bot.telegram.sendMessage(CHAT_ANDREY, message);
   return message;
   // '🔥🔥🔥🔥🔥'
 };
