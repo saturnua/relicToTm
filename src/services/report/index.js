@@ -14,6 +14,7 @@ const send = async (ctx) => {
    🔥⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑️⛑⛑⛑🔥`;
 
   await bot.telegram.sendMessage(CHAT_ID, message);
+  await bot.telegram.sendMessage(CHAT_ANDREY, message);
   return message;
   // '🔥🔥🔥🔥🔥'
 };
