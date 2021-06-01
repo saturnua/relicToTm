@@ -10,7 +10,7 @@ const send = async (ctx) => {
   const message = `
     🔥
     App "${appName}" has ERROR with severity - "${severity}"\n
-    happens at - ${new Date(timestamp).toString()}\n
+    happens at - ${new Date(timestamp).toLocaleString()}\n
     ERROR  - "${error}"\n
    ️⛑⛑⛑🔥`;
 
