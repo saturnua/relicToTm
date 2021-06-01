@@ -1,6 +1,6 @@
 const bot = require('../../bot');
 
-const { CHAT_ID } = process.env;
+const { CHAT_ID, CHAT_ANDREY } = process.env;
 
 const send = async (ctx) => {
   const appName = ctx.metadata['entity.name'];
