@@ -3,7 +3,7 @@ const bot = require('../../bot');
 const { CHAT_ID, CHAT_ANDREY } = process.env;
 
 const send = async (ctx) => {
-  const appName = ctx.metadata['entity.name'];
+  const appName = ctx.metadata['entity.name'] ? ctx.metadata['entity.name'] : 'App without name';
   const { severity } = ctx;
   const timeOfError = ctx.timestamp_utc_string;
 
