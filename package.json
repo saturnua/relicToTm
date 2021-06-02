@@ -25,12 +25,15 @@
     "dotenv": "^10.0.0",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
+    "koa-logger-winston": "^0.0.2",
+    "koa2-winston": "^3.1.1",
     "telegraf": "^4.3.0"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
   }
 }

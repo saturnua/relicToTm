@@ -1,6 +1,7 @@
 require('dotenv').config();
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
+const logger = require('./logger')
 
 const app = new Koa();
 const router = require('./routes');
@@ -10,7 +11,13 @@ app.use(
     enableTypes: ['json', 'form', 'text'],
   }),
 );
-
+// TODO del before release - for testing purpose only
+app.use((ctx, next) => {
+    console.log('-----------------------------------------------')
+    console.log(ctx.request.body);
+    console.log('-----------------------------------------------')
+    next();
+});
 app.use(router.routes()).use(router.allowedMethods());
 
 const bot = require('./bot');
