@@ -16,9 +16,9 @@ const send = async (ctx) => {
     happens at - ${new Date(timestamp).toLocaleString('en-US', { timeZone: 'Europe/Kiev'})}\n
     ERROR  - "${error}"\n
     DETAILS - "${details}"\n
-    PolicyName - "${policyName}"\\n
-    ConditionName - "${condition_name}"\\n
-   ️🔥`;
+    PolicyName - "${policyName}"\n
+    ConditionName - "${condition_name}"
+  🔥`;
 
   await bot.telegram.sendMessage(CHAT_ID, message);
   return message;
