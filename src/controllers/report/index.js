@@ -1,10 +1,15 @@
 const reportServices = require('../../services');
+const isDuplicatedMSG = require('../../util/isDuplicatedMSG');
+
+let oldMSG = {};
 
 const send = async (ctx) => {
-  const data = ctx.request.body;
-  ctx.body = await reportServices.send(data);
-
-  ctx.res.statusCode = 200;
+  const newMSG = ctx.request.body;
+  if (!isDuplicatedMSG(newMSG, oldMSG)) {
+    oldMSG = newMSG;
+    ctx.body = await reportServices.send(newMSG);
+    ctx.res.statusCode = 200;
+  }
 };
 
 const userControllers = { send };
