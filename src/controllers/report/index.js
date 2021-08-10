@@ -6,9 +6,9 @@ let oldMSG = {};
 const send = async (ctx) => {
   const newMSG = ctx.request.body;
   // TODO: remove before release
-  log('-----------NEW---MSG--------------');
+  console.log('-----------NEW---MSG--------------');
   console.log(newMSG);
-  log('-----------OLD---MSG--------------');
+  console.log('-----------OLD---MSG--------------');
   console.log(oldMSG);
   if (!isDuplicatedMSG(newMSG, oldMSG)) {
     oldMSG = newMSG;

@@ -13,9 +13,9 @@ app.use(
 );
 // TODO del before release - for testing purpose only
 app.use((ctx, next) => {
-    console.log('-----------------------------------------------')
-    console.log(ctx.request.body);
-    console.log('-----------------------------------------------')
+    // console.log('-----------------------------------------------')
+    // console.log(ctx.request.body);
+    // console.log('-----------------------------------------------')
     next();
 });
 app.use(router.routes()).use(router.allowedMethods());
