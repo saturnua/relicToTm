@@ -1,25 +1,30 @@
 const bot = require('../../bot');
 
+const environments = require('../../dictionaries/links.json');
 const { CHAT_ID } = process.env;
 
 const send = async (ctx) => {
-  const appName = ctx.metadata['entity.name'] ? ctx.metadata['entity.name'] : 'App without name';
   const error = ctx.targets ? ctx.targets[0].name : 'Error without name :(';
-  const { severity, timestamp, policy_name, details } = ctx;
-  const condition_name = 'http://google.com'
-
+  const { timestamp, policy_name, condition_name, details } = ctx;
+  const targetEnv = environments.find((obj) => obj.name === condition_name);
+  let host, linkToTargetELK;
+  if (targetEnv) {
+    host = targetEnv.name.slice(targetEnv.name.indexOf('(') + 1, targetEnv.name.indexOf(')'));
+    linkToTargetELK = process.env[host] + `${targetEnv.link}`;
+  } else {
+    linkToTargetELK = '#';
+  }
   const message = `
     🔥
-    
-    App "${appName}" has ERROR with severity - "${severity}"\n
-    happens at - ${new Date(timestamp).toLocaleString('en-US', { timeZone: 'Europe/Kiev'})}\n
-    ERROR  - "${error}"\n
-    DETAILS - "${details}"\n
-    PolicyName - "${policy_name}"\n
-    ConditionName - "<a href="TEST_INFO">${condition_name}</a>"
-  🔥`;
-
-  await bot.telegram.sendMessage(CHAT_ID, message);
+    <b>happens at - ${new Date(timestamp).toLocaleString('en-US', {
+      timeZone: 'Europe/Kiev',
+    })} \n</b>
+    <u>ERROR </u> - <b>"${error}"</b>\n
+    <u>DETAILS </u>- <b>"${details}"</b>\n
+    <u>PolicyName</u> - <b>"${policy_name}"</b>\n
+    <u>ConditionName <a href="${linkToTargetELK}">${condition_name}</a></u>
+  `;
+  await bot.telegram.sendMessage(CHAT_ID, message, { parse_mode: 'HTML' });
   return message;
 };
 const reportServices = { send };

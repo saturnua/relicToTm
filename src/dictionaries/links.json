@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Worker RealMoney Enroll Error (DE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (DE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (DE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (AE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'18ff9160-c61f-11eb-ba28-4f1a2e93713a',interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (AE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'18ff9160-c61f-11eb-ba28-4f1a2e93713a',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (AE1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'18ff9160-c61f-11eb-ba28-4f1a2e93713a',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (AZ1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:a8fea830-3ee0-11eb-90a4-87a270b1ca8c,interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (AZ1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:a8fea830-3ee0-11eb-90a4-87a270b1ca8c,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (AZ1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:a8fea830-3ee0-11eb-90a4-87a270b1ca8c,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (BY4)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:f85eac30-74ec-11eb-862d-c358b78acfd8,interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (BY4)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:f85eac30-74ec-11eb-862d-c358b78acfd8,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (BY4)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:f85eac30-74ec-11eb-862d-c358b78acfd8,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (HR2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:c39ea190-0957-11eb-b7a9-7f4c04d85fbb,interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (HR2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:c39ea190-0957-11eb-b7a9-7f4c04d85fbb,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (HR2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:c39ea190-0957-11eb-b7a9-7f4c04d85fbb,interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (RO2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'483170f0-d71b-11ea-a2b2-816bddd8502b',interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (RO2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'483170f0-d71b-11ea-a2b2-816bddd8502b',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (RO2)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'483170f0-d71b-11ea-a2b2-816bddd8502b',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (TR7)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'34430130-93cc-11eb-9acd-e9c07195af7a',interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (TR7)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'34430130-93cc-11eb-9acd-e9c07195af7a',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (TR7)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'34430130-93cc-11eb-9acd-e9c07195af7a',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RealMoney Enroll Error (AM1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20enrollRealMoney:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker FreeSpin Enroll Error (AM1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendFreeSpinOffer:%22'),sort:!('@timestamp',desc))"
+  },
+  {
+    "name": "Worker RiskFree Enroll Error (AM1)",
+    "link": "/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-4h,mode:quick,to:now))&_a=(columns:!(_source),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',key:app,negate:!f,params:(query:crm-node-bonuses,type:phrase),type:phrase,value:crm-node-bonuses),query:(match:(app:(query:crm-node-bonuses,type:phrase))))),index:'76261af0-a1b6-11ea-aff8-b9710b7f7e18',interval:auto,query:(language:lucene,query:'%22Error%20in%20sendRiskFreeOffer:%22'),sort:!('@timestamp',desc))"
+  }
+]
