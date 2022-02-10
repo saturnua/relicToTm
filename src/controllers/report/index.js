@@ -8,7 +8,7 @@ const send = async (ctx) => {
 
   if (!isDuplicatedMSG(newMSG, oldMSG)) {
     oldMSG = newMSG;
-    ctx.body = await reportServices.send(newMSG);
+    ctx.body = await reportServices.send(newMSG, ctx);
     ctx.res.statusCode = 200;
   }
 };
